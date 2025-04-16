@@ -1,0 +1,8 @@
+libreoffice
+pandoc
+imagemagick
+ffmpeg
+7zip
+unrar
+inkscape
+poppler
