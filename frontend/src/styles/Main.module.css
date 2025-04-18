@@ -1,0 +1,9 @@
+@reference "tailwindcss";
+
+.container {
+  @apply bg-stone-100 text-black;
+}
+
+.content {
+  @apply min-h-[100vh] w-[100%] max-w-[1200px]  mx-auto py-5 box-content flex flex-col items-center;
+}

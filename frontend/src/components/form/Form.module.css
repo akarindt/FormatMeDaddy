@@ -1,0 +1,82 @@
+@reference "tailwindcss";
+
+.title {
+    @apply text-[32px] font-light text-rose-600;
+}
+
+.container {
+    @apply text-center w-[100%];
+}
+
+.form_overlay {
+    @apply w-[100%] h-[100%] bg-stone-950/80 absolute top-0 left-0 rounded-[2px];
+}
+
+.transparent_background {
+    @apply w-[100%] h-[100%] object-cover;
+}
+
+.form_container {
+    @apply my-10 w-[100%] h-[75px] relative;
+}
+
+.add_file_btn {
+    @apply bg-white font-medium px-5 py-1 w-[max-content] h-[40px] cursor-pointer rounded-[2px] flex flex-row items-center gap-3 active:scale-95 active:ring active:ring-rose-600 transition-all duration-100;
+}
+
+.form_container_group {
+    @apply w-[100%] h-[75px] flex flex-row items-center justify-between ps-10;
+}
+
+.convert_btn {
+    @apply bg-rose-600 text-white h-[100%] w-[200px] cursor-pointer flex flex-row justify-center items-center gap-5 text-[18px];
+}
+
+.table {
+    @apply my-5 w-[100%];
+}
+
+.table tr {
+    @apply w-[100%] border-[1px] border-gray-200 h-[60px] shadow-sm flex flex-row justify-between items-center px-10 my-2;
+}
+
+.select_format {
+    @apply flex flex-row items-center gap-2;
+}
+
+.select_format small {
+    @apply text-gray-500;
+}
+
+.select_format select {
+    @apply border-gray-400 border-[1px] w-[70px] py-1 px-2 rounded-[2px];
+}
+
+.status {
+    @apply border-[1px] py-1 px-2 text-[10px] uppercase;
+}
+
+.ready {
+    @apply border-green-500 text-green-500;
+}
+
+.error {
+    @apply border-red-500 text-red-500;
+}
+
+.file_size {
+    @apply text-[12px] text-gray-400;
+}
+
+.delete_btn {
+    @apply border-[1px] border-stone-100 cursor-pointer text-gray-500 text-2xl p-1 box-content transition-colors duration-300 ease-in-out;
+}
+
+.delete_btn:hover,
+.delete_btn:active {
+    @apply border-[1px] border-gray-500;
+}
+
+.file_name {
+    @apply w-[300px] text-left inline-block text-nowrap overflow-hidden text-ellipsis;
+}

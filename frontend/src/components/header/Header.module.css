@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.main_header {
+  @apply bg-stone-100/20 px-5 text-black border-b-[1px] border-stone-300 sticky top-0 backdrop-blur-sm;
+}
+
+.container {
+  @apply max-w-[1200px] mx-auto py-4 box-content;
+}
+
+.title {
+  @apply font-bold text-stone-800 text-[20px];
+}
